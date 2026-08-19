@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rejoindre Conquest | CONQUEST</title>
+<meta name="description" content="Devenez athlète, bénévole/staff ou partenaire de Conquest. Inscrivez-vous et participez à la construction du sport gabonais.">
+<link rel="canonical" href="/rejoindre.html">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="CONQUEST — Accueil"><span class="mark" aria-hidden="true"></span>CONQUEST</a>
+    <nav class="nav-desktop" aria-label="Navigation principale">
+      <ul class="nav-links">
+        <li><a href="conquest.html">Conquest</a></li>
+        <li><a href="athletes.html">Nos athlètes</a></li>
+        <li><a href="disciplines.html">Disciplines</a></li>
+        <li><a href="rsg.html">RSG 2026</a></li>
+        <li><a href="actualites.html">Actualités</a></li>
+        <li><a href="partenaires.html">Partenaires</a></li>
+      </ul>
+      <a href="rejoindre.html" class="btn btn-primary">Rejoindre Conquest</a>
+    </nav>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-panel" aria-hidden="true">
+  <a href="index.html">Accueil</a>
+  <a href="conquest.html">Conquest</a>
+  <a href="athletes.html">Nos athlètes</a>
+  <a href="disciplines.html">Disciplines</a>
+  <a href="rsg.html">RSG 2026</a>
+  <a href="actualites.html">Actualités</a>
+  <a href="partenaires.html">Partenaires</a>
+  <a href="rejoindre.html" class="btn btn-primary btn-block">Rejoindre Conquest</a>
+  <a href="rejoindre.html#contact">Contact</a>
+</div>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Rejoindre Conquest</div>
+      <h1>Trois façons<br>de participer.</h1>
+      <p class="lede mt" style="margin-top:24px;">Choisissez le profil qui vous correspond — les formulaires seront connectés très prochainement à notre base de données.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="tabs reveal">
+        <button class="tab-btn is-active" data-tab="panel-athlete">Je veux être athlète</button>
+        <button class="tab-btn" data-tab="panel-benevole">Je veux être bénévole / staff</button>
+        <button class="tab-btn" data-tab="panel-partenaire">Je veux devenir partenaire</button>
+      </div>
+
+      <!-- ATHLETE -->
+      <div class="tab-panel is-active" id="panel-athlete">
+        <form data-conquest-form>
+          <div class="form-grid">
+            <div class="field"><label for="a-nom">Nom</label><input id="a-nom" name="nom" type="text" required></div>
+            <div class="field"><label for="a-prenom">Prénom</label><input id="a-prenom" name="prenom" type="text" required></div>
+            <div class="field"><label for="a-age">Âge</label><input id="a-age" name="age" type="number" min="5" max="80" required></div>
+            <div class="field"><label for="a-tel">Téléphone</label><input id="a-tel" name="telephone" type="tel" required></div>
+            <div class="field"><label for="a-email">Email</label><input id="a-email" name="email" type="email" required></div>
+            <div class="field"><label for="a-ville">Ville</label><input id="a-ville" name="ville" type="text" required></div>
+            <div class="field">
+              <label for="a-discipline">Discipline</label>
+              <select id="a-discipline" name="discipline" required>
+                <option value="">Sélectionner</option>
+                <option>Athlétisme</option>
+                <option>Rugby</option>
+                <option>Basketball</option>
+                <option>Football</option>
+                <option>Tennis</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="field"><label for="a-specialite">Spécialité</label><input id="a-specialite" name="specialite" type="text" placeholder="Ex. Sprint, demi-fond..."></div>
+            <div class="field">
+              <label for="a-niveau">Niveau</label>
+              <select id="a-niveau" name="niveau" required>
+                <option value="">Sélectionner</option>
+                <option>Débutant</option>
+                <option>Intermédiaire</option>
+                <option>Confirmé</option>
+                <option>Compétition</option>
+              </select>
+            </div>
+            <div class="field"><label for="a-perf">Performances</label><input id="a-perf" name="performances" type="text" placeholder="Records, résultats récents..."></div>
+            <div class="field full"><label for="a-dispo">Disponibilités</label><input id="a-dispo" name="disponibilites" type="text" placeholder="Ex. soirs en semaine, week-ends..."></div>
+            <div class="field full"><label for="a-msg">Message</label><textarea id="a-msg" name="message"></textarea></div>
+          </div>
+          <p class="form-feedback form-note"></p>
+          <button type="submit" class="btn btn-primary mt" style="margin-top:24px;">Envoyer ma candidature</button>
+        </form>
+      </div>
+
+      <!-- BENEVOLE -->
+      <div class="tab-panel" id="panel-benevole">
+        <form data-conquest-form>
+          <div class="form-grid">
+            <div class="field"><label for="b-nom">Nom</label><input id="b-nom" name="nom" type="text" required></div>
+            <div class="field"><label for="b-prenom">Prénom</label><input id="b-prenom" name="prenom" type="text" required></div>
+            <div class="field"><label for="b-tel">Téléphone</label><input id="b-tel" name="telephone" type="tel" required></div>
+            <div class="field"><label for="b-email">Email</label><input id="b-email" name="email" type="email" required></div>
+            <div class="field"><label for="b-ville">Ville</label><input id="b-ville" name="ville" type="text" required></div>
+            <div class="field">
+              <label for="b-role">Domaine souhaité</label>
+              <select id="b-role" name="role" required>
+                <option value="">Sélectionner</option>
+                <option>Encadrement sportif</option>
+                <option>Organisation événementielle</option>
+                <option>Communication / contenu</option>
+                <option>Logistique</option>
+                <option>Arbitrage</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="field"><label for="b-dispo">Disponibilités</label><input id="b-dispo" name="disponibilites" type="text"></div>
+            <div class="field full"><label for="b-msg">Message</label><textarea id="b-msg" name="message" placeholder="Expérience, motivation..."></textarea></div>
+          </div>
+          <p class="form-feedback form-note"></p>
+          <button type="submit" class="btn btn-primary mt" style="margin-top:24px;">Envoyer ma candidature</button>
+        </form>
+      </div>
+
+      <!-- PARTENAIRE -->
+      <div class="tab-panel" id="panel-partenaire">
+        <form data-conquest-form>
+          <div class="form-grid">
+            <div class="field"><label for="p-org">Organisation</label><input id="p-org" name="organisation" type="text" required></div>
+            <div class="field"><label for="p-contact">Nom du contact</label><input id="p-contact" name="contact" type="text" required></div>
+            <div class="field"><label for="p-tel">Téléphone</label><input id="p-tel" name="telephone" type="tel" required></div>
+            <div class="field"><label for="p-email">Email</label><input id="p-email" name="email" type="email" required></div>
+            <div class="field full">
+              <label for="p-type">Type de collaboration envisagée</label>
+              <select id="p-type" name="type_collaboration" required>
+                <option value="">Sélectionner</option>
+                <option>Sponsor / partenaire financier</option>
+                <option>Partenaire matériel / logistique</option>
+                <option>Fédération / institution</option>
+                <option>Média / communication</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="field full"><label for="p-msg">Message</label><textarea id="p-msg" name="message"></textarea></div>
+          </div>
+          <p class="form-feedback form-note"></p>
+          <button type="submit" class="btn btn-primary mt" style="margin-top:24px;">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="grid-2 reveal">
+        <div class="card">
+          <h3>Coordonnées</h3>
+          <p>Akanda, Gabon<br>contact@conquest.ga</p>
+        </div>
+        <div class="card">
+          <h3>Suivre Conquest</h3>
+          <p>Retrouvez Conquest sur les réseaux sociaux pour suivre la détection, les entraînements et la préparation du RSG 2026.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo"><span class="mark" aria-hidden="true"></span>CONQUEST</div>
+        <div class="footer-sign">Conquérir. Performer. Rayonner.</div>
+        <div class="social-row mt" style="margin-top:24px;">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TT</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explorer</h4>
+        <a href="conquest.html">Conquest</a>
+        <a href="athletes.html">Athlètes</a>
+        <a href="disciplines.html">Disciplines</a>
+        <a href="rsg.html">RSG 2026</a>
+        <a href="actualites.html">Actualités</a>
+      </div>
+      <div class="footer-col">
+        <h4>Collaborer</h4>
+        <a href="partenaires.html">Partenaires</a>
+        <a href="federations.html">Fédérations &amp; institutions</a>
+        <a href="rejoindre.html">Rejoindre Conquest</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Akanda, Gabon</p>
+        <a href="mailto:contact@conquest.ga">contact@conquest.ga</a>
+        <a href="rejoindre.html#contact">Formulaire de contact</a>
+      </div>
+    </div>
+    <div class="footer-rsg"><span>Conquest RSG 2026</span><span>14 — 26 Décembre 2026</span></div>
+    <div class="footer-bottom">
+      <span>© 2026 Conquest — Tous droits réservés.</span>
+      <span>Site en construction — contenus et statistiques provisoires.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
